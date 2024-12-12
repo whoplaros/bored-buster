@@ -6,6 +6,7 @@
 		<title>Boredom Buster: An App to Get You Out of Your Funk</title>
 		<link rel="stylesheet" href="src/style.css" />
 		<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -19,7 +20,8 @@
 					than inaction...<br />Go ahead. What are you waiting for?
 				</p>
 			</div>
-			<div class="button-container">
+			<div class="button-container" id="button-container">
+				<div class="idea hidden" id="idea"></div>
 				<button class="ani-button" id="ideas-button">I'm Bored!</button>
 			</div>
 		</div>
