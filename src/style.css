@@ -1,3 +1,70 @@
 body {
-	background-color: rgb(241, 249, 255);
+	background-color: rgb(243, 245, 241);
+}
+h1 {
+	font-weight: 700;
+	font-size: 3em;
+}
+h2 {
+	font-weight: 500;
+	font-size: 1.5em;
+}
+.container {
+	width: 50%;
+	margin: 100px auto;
+	padding-bottom: 30px;
+	min-height: 350px;
+	border-top: 5px solid #cfeb00;
+	border-right: 5px solid #19a9a6;
+	border-bottom: 5px solid #19a9a6;
+	border-left: 5px solid #37dc09;
+	font-size: 18px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #000;
+	background: linear-gradient(#f7f7f9, #fbfbfe);
+}
+.content-container {
+	margin-bottom: 30px;
+}
+.ani-button {
+	width: 200px;
+	height: 100px;
+	border: none;
+	border-radius: 10px;
+	font-size: 22px;
+	font-weight: 800;
+	outline: none;
+	background: white;
+	color: #000000;
+	animation-name: button;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes button {
+	20% {
+		background: red;
+		color: white;
+	}
+	40% {
+		background: yellow;
+		color: black;
+	}
+	60% {
+		background: green;
+		color: white;
+	}
+	80% {
+		background: blue;
+		color: black;
+	}
+	100% {
+		background: red;
+		color: white;
+	}
+}
+footer {
+	text-align: center;
 }
