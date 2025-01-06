@@ -83,3 +83,8 @@ h1 {
 footer {
 	text-align: center;
 }
+@media screen and (max-width: 650px) {
+	.container {
+		margin: 0 auto;
+	}
+}
